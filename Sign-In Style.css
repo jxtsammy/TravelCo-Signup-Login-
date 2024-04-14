@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow:hidden;
+}
+
+.inter{
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(abstract-circles-4k-material-design-colorful-backgrounds-colorful-circles.jpg);
+    background-size: cover;
+}
+
+.card img{
+    width: 500px;
+    height: 50vh;
+}
+
+.in{
+    width: 55%;
+    max-height: 100vh;
+    position: right;
+    background: white;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.in h1{
+    text-align: center;
+    margin-top: 100px;
+    cursor: default;
+    font-size: 40px;
+}
+
+.in form{
+    margin: 5px 0;
+}
+
+.in h1::after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: rgba(129, 12, 188, 0.959);
+    border-radius: 30px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user{
+    line-height: 40px;
+}
+
+.user i{
+    margin: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.user input{
+    height: 20px;
+    width: 440px;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1;
+    outline: none;
+    font-size: 15px;
+}
+
+form button{
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: rgba(129, 12, 188, 0.854);
+    color: white;
+    font-size: 20px;
+    margin: 0 150px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+form button:hover{
+    background: rgba(129, 12, 188, 0.982);
+}
+
+.if a{
+    color: rgba(129, 12, 188, 0.982);
+    text-decoration: none;
+
+}
+
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.remember input{
+    margin-right: 5px;
+}
+
+.remember a{
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+
+.in p{
+    text-align: center;
+    line-height: 55px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.option i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+

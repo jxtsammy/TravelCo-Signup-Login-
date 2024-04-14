@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+
+.inter{
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(School-College-Partnership-holding-slide.jpg);
+    background-size: cover;
+}
+
+.card img{
+    width: 500px;
+    height: 50vh;
+}
+
+.in{
+    width: 60%;
+    height: 100vh;
+    position: left;
+    background: white;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.in h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    cursor: default;
+}
+
+.in h1::after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: rgba(129, 12, 188, 0.959);
+    border-radius: 30px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user{
+    line-height: 30px;
+}
+
+.user i{
+    margin: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.user input{
+    height: 20px;
+    width: 440px;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1;
+    outline: none;
+    font-size: 15px;
+}
+
+form button{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: rgba(129, 12, 188, 0.854);
+    color: white;
+    font-size: 20px;
+    margin: 10px 150px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+form button:hover{
+    background: rgba(129, 12, 188, 0.982);
+}
+
+
+.in p{
+    text-align: center;
+    line-height: 50px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.option i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alt p{
+    margin-bottom: 20px;
+}
+.alt p a{
+    color: rgba(129, 12, 188, 0.982);
+    text-decoration: none;
+}
+
+
